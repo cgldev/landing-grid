@@ -24,6 +24,10 @@ p {
   height: 100vh;
 }
 
+.navigation {
+  margin-top: 16px;
+}
+
 .navigation--item {
   text-decoration: none;
   color: #bdbdbd;
@@ -113,15 +117,6 @@ footer {
   color: #333;
 }
 
-.menu-button {
-  flex-grow: 1;
-}
-
-.menu-button button {
-  border: none;
-  background-color: transparent;
-}
-
 /* Media queries */
 
 @media (min-width: 768px) {
@@ -132,6 +127,7 @@ footer {
   .navigation {
     flex-grow: 1;
     margin-left: 40px;
+    margin-top: 0;
   }
   main {
     display: flex;
